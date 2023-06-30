@@ -3,7 +3,7 @@ from shop import purchased, retry_purchase, ThreeFailedAttempts
 
 class TestingPurchased(unittest.TestCase):
     
-    # CASES THAT WERE PREVIPUSLY PROVIDES IN THE EXAMPLE BECKY ATTACHED
+    # CASES THAT WERE PREVIOUSLY PROVIDES IN THE EXAMPLE BECKY ATTACHED
     def test_purchased_with_not_enough_money(self):
         self.assertFalse(purchased(item="Phone", balance=100))
     def test_purchased_with_negative_money(self):
