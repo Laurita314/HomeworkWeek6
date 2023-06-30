@@ -28,4 +28,4 @@ doesn’t update the local repository is git fetch **
 code is git push ** 
 
 # Question 8
-** For the git commit command to work we need the files we want to committ to be staged. This is done via the 'git add' command.**
+** For the git commit command to work we need the files we want to committ to be staged. This is done via the 'git add' command. Something else we need is to add a description to the git commit command, for example "This is the first commit **
